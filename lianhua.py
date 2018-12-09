@@ -1,16 +1,10 @@
 # coding:utf-8
-import sys
-reload(sys)
-sys.setdefaultencoding('utf8')
-from appium.webdriver.mobilecommand import MobileCommand
+rom appium.webdriver.mobilecommand import MobileCommand
 import HTMLTestRunner
-import random
 import os
 import time
 import unittest
 from selenium import webdriver
-import thread
-import subprocess
 
 
 driver=webdriver.Chrome()
