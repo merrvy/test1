@@ -6,7 +6,6 @@ import time
 import unittest
 from selenium import webdriver
 
-
 driver=webdriver.Chrome()
 driver.get("http://lotus.chinab2bi.com/mainLogon.hlt#")
 driver.implicitly_wait(15)
